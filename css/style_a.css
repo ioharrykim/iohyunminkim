@@ -1,0 +1,247 @@
+/* COMMON */
+* {margin: 0;padding: 0;overflow-x: hidden;}
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29, 31);
+    letter-spacing: -0.05em;
+    background: #f3f3f3;
+}
+p {
+    line-height: 1.8;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* HEADER */
+.local-nav {
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 1rem;
+    background-color: #fff;
+}
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.local-nav-links .iohmk-title {
+    margin-right: auto;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.local-nav-links a:not(.iohmk-title) {
+    margin-left: 2em;
+}
+.local-nav-links a {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.local-nav-links a:hover {
+    color: #277045;
+}
+
+/* SECTION - PROFILE */
+.section-profile {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-profile h2 {
+    color: #333;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.section-profile h2 span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.section-profile > .profile {
+    display: flex;
+    align-items: center;
+}
+.section-profile > .profile > .profile-text > h5 {
+    color: #333;
+    font-size: 2rem;
+}
+.section-profile > .profile > .profile-text > h5 span {
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.section-profile > .profile > .profile-text > .sns {
+    margin-top: -38px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.section-profile > .profile > .profile-text > .sns p {
+    color: #277045;
+    font-weight: 900;
+    line-height: 20px;
+    margin-left: 130px;
+}
+.section-profile > .profile > .profile-text > .skills {
+    margin-top: 30px;
+}
+.section-profile > .profile > .profile-text > .skills > img {
+    margin-left: 10px;
+}
+.section-profile > .profile > .profile-text > .skills > img:first-child {
+    margin-left: 0px;
+}
+
+/* SECTION - TITLE */
+.section-title {
+    background-color: #f3f3f3;
+}
+.section-title > h2 {
+    display: none;
+}
+.text-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    color: #277045;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.fixed {
+    display: block;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 800px;
+    height: 40px;
+    background-color: #f3f3f3;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.fixed a {
+    color: #277045;
+    margin-left: 45px;
+    line-height: 40px;
+}
+.fixed a:first-child {
+    margin-left: 0px;
+}
+.fixed a:hover {
+    color: #333;
+}
+
+/* SECTION - ARTWORKS */
+#artwork1 {
+    background-image: url(../images/artwork1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#artwork2 {
+    background-image: url(../images/artwork2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#artwork3 {
+    background-image: url(../images/artwork3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#artwork4 {
+    background-image: url(../images/artwork4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#artwork5 {
+    background-image: url(../images/artwork5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#artwork1 > h3 {
+    margin: 20vw 0 20px 30px;
+    color: #277045;
+}
+#artwork1 > p {
+    width: 20%;
+    margin: 0 0 0 30px;
+}
+
+#artwork2 > h3 {
+    float: right;
+    margin: 20vw 30px 20px 0px;
+    color: #277045;
+}
+#artwork2 > p {
+    clear: both;
+    float: right;
+    text-align: right;
+    width: 20%;
+    margin: 0 30px 0 0px;
+}
+
+#artwork3 > h3 {
+    margin: 20vw 0 20px 30px;
+    color: #277045;
+}
+#artwork3 > p {
+    width: 20%;
+    margin: 0 0 0 30px;
+}
+
+#artwork4 > h3 {
+    float: right;
+    margin: 20vw 30px 20px 0px;
+    color: #277045;
+}
+#artwork4 > p {
+    clear: both;
+    float: right;
+    text-align: right;
+    width: 20%;
+    margin: 0 30px 0 0px;
+}
+
+#artwork5 > h3 {
+    margin: 20vw 0 20px 30px;
+    color: #277045;
+}
+#artwork5 > p {
+    width: 20%;
+    margin: 0 0 0 30px;
+}
+
+
+/* FOOTER */
+.footer {
+    display: block;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #277045;
+    font-weight: bold;
+    height: 80px;
+    background-color: #fff;
+    letter-spacing: 0.1rem;
+}
+.footer span {
+    font-weight: 100;
+    letter-spacing: 0rem;
+}

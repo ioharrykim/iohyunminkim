@@ -1,0 +1,151 @@
+/* COMMON */
+* {margin: 0;padding: 0;overflow-x: hidden;}
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29, 31);
+    letter-spacing: -0.05em;
+    background: #f3f3f3;
+}
+p {
+    line-height: 1.8;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* HEADER */
+.local-nav {
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 1rem;
+    background-color: #fff;
+}
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.local-nav-links .iohmk-title {
+    margin-right: auto;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.local-nav-links a:not(.iohmk-title) {
+    margin-left: 2em;
+}
+.local-nav-links a {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.local-nav-links a:hover {
+    color: #277045;
+}
+
+/* SECTION - PROFILE */
+.section-profile {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-profile h2 {
+    color: #333;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.section-profile h2 span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.section-profile > .profile {
+    display: flex;
+    align-items: center;
+}
+.section-profile > .profile > .profile-text > h5 {
+    color: #333;
+    font-size: 2rem;
+}
+.section-profile > .profile > .profile-text > h5 span {
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.section-profile > .profile > .profile-text > .sns {
+    margin-top: -38px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.section-profile > .profile > .profile-text > .sns p {
+    color: #277045;
+    font-weight: 900;
+    line-height: 20px;
+    margin-left: 130px;
+}
+.section-profile > .profile > .profile-text > .skills {
+    margin-top: 30px;
+}
+.section-profile > .profile > .profile-text > .skills > img {
+    margin-left: 10px;
+}
+.section-profile > .profile > .profile-text > .skills > img:first-child {
+    margin-left: 0px;
+}
+
+/* SECTION - IOHMK */
+.section-iohmk {
+    background-color: #277045;
+}
+.section-iohmk h6 {
+    display: none;
+}
+.text-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.image-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    margin-left: -394px;
+}
+.disc-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.disc-area > img {
+    margin: 150px auto 30px auto;
+}
+
+/* FOOTER */
+.footer {
+    display: block;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #277045;
+    font-weight: bold;
+    height: 80px;
+    background-color: #fff;
+    letter-spacing: 0.1rem;
+}
+.footer span {
+    font-weight: 100;
+    letter-spacing: 0rem;
+}
