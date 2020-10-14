@@ -23,6 +23,7 @@ a {
     height: 52px;
     border-bottom: 1px solid #ddd;
     padding: 0 1rem;
+    background-color: #fff;
 }
 .local-nav-links {
     display: flex;
